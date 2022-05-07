@@ -4,7 +4,9 @@ This is a report about finding sybil attackers in Hop-Protocol Aidrop, produced 
 
 Follow the steps below to get the result:
 
-1. Run the code in [query.sql](query.sql) on [Dune Analytics](https://dune.com/queries), and download the result. The downloading need you to be a pro-plan user(cost $390 a month).
+1. Run the code in [query.sql](query.sql) on [Dune Analytics](https://dune.com/queries), and download the result. The downloading need you to be a pro-plan user(cost $390 a month). 
+
+2. Save the downloaded file as [candidate-transfer.csv](candidate-transfer.csv).
 
 2. Run the code in [report.ipynb](report.ipynb) using python 3.7+ (you may need to run `pip install pandas` firstly).
 
